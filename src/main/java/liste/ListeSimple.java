@@ -4,17 +4,31 @@ public class ListeSimple {
     private long size;
     Noeud tete;
 
-    
 
+/**
+ * Retourne le nombre d'éléments présents dans la liste.
+ *
+ * @return le nombre d'éléments de la liste
+ */
     public long getSize() {
         return size;
     }
+/**
+ * Ajoute un nouvel élément au début de la liste.
+ *
+ * @param element l'élément à ajouter
+ */
 
     public void ajout(int element) {
         tete = new Noeud(element, tete);
         size++;
     }
-
+/**
+ * Modifie la première occurrence d'un élément dans la liste.
+ *
+ * @param element l'élément à rechercher
+ * @param nouvelleValeur la nouvelle valeur à lui attribuer
+ */
     public void modifiePremier(Object element, Object nouvelleValeur) {
         Noeud courant = tete;
         while (courant != null && courant.getElement() != element)
