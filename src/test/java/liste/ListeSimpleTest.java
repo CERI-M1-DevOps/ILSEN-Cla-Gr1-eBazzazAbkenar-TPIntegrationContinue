@@ -119,11 +119,11 @@ import static org.junit.jupiter.api.Assertions.*;
     }
 
     @Test
-     void supprimeTousListeVide() {
-        listeATester.supprimePremier(1);
-        assertNull(listeATester.tete);
-        assertEquals(0, listeATester.getSize());
-    }
+    void supprimeTousListeVide() {
+    listeATester.supprimeTous(1);
+    assertNull(listeATester.tete);
+    assertEquals(0, listeATester.getSize());
+}
 
     @Test
      void supprimeTousUneSeuleFoisAuDebut() {
