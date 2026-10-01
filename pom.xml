@@ -11,6 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sonar.organization>ceri-m1-devops</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectName>ILSEN-Cla-Gr1-eBazzazAbkenar-TPIntegrationContinue</sonar.projectName>
     </properties>
     <dependencies>
         <dependency>
